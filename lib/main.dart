@@ -1,4 +1,7 @@
-import 'package:daily_tasks/21-10-24/simple_list.dart';
+import 'package:daily_tasks/21-10-24/profile_page.dart';
+import 'package:daily_tasks/23-10-24/view/home_page.dart';
+import 'package:daily_tasks/23-10-24/view/splash.dart';
+import 'package:daily_tasks/24-10-24/view/home.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: profile_page(),
+      home: Home(),
     );
   }
 }

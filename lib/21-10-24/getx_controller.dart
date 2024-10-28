@@ -6,6 +6,11 @@ class GetModel extends GetxController{
   RxList<UserModel> userList = <UserModel>[].obs;
 
 
+  sharedInstances()async{
+    
+  }
+
+
   void addName(UserModel user){
     userList.add(user);
   }
